@@ -15,11 +15,11 @@ env:
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   TZ: Asia/Shanghai
-  DEVICE: xiaomi_redmi-router-ax6000-ubootmod
+  DEVICE: xiaomi_redmi-router-ax6000-stock
   UPLOAD_OUTPUT: true
 
 jobs:
-   xiaomi_redmi-router-ax6000-ubootmod:
+   xiaomi_redmi-router-ax6000-stock:
     runs-on: ubuntu-20.04
     permissions:
       contents: write
